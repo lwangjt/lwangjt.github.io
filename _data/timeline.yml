@@ -1,27 +1,28 @@
-- title: AMAZING STUFF
-  from: 2019
+- title: STAT207 Course Assistant, UIUC
+  from: 2023
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: ● Assisted in designing and delivering instructional materials for
+                 more than 30 students related to statistical concepts (p-value, Hypothesis
+                 Testing, Statistical Inference) and data modeling techniques (Regression, Classification)
+                 in Python.
+               ● Reviewed the weekly Python homework and projects that are primarily based on Pandas,
+                 Matplotlib, and Sklearn for 15 students; Provided feedback for their submissions,
+                 leading to enhanced performance in assessments.
 
-- title: Student, Harvard CS
-  from: 2013
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Research Assistant, Information and Intelligence Group, UIUC
+  from: 2023
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+  description: ● Developed online assessment and a platform for measuring creativity through
+                 three dimensions and its correlation with participants’ interaction with the
+                 GPT language models; Ultilized Qualtrics and Python as the main technologies.
+               ● Established rigorous guidelines for data cleaning and rating procedures (Pandas,
+                 Sklearn, Numpy), ensuring data quality for further analysis and the construction 
+                 of the list of constant parameters into the platform’s backend.
+               ● Implemented systematic checks and improvements by employing the Cohen-Kappa Score
+                 to assess mutual rating consistency among different researchers, particularly in
+                 the context of pilot study datasets.
+               ● Pioneered the application of OpenAI's Ada Model to quantify the semantic distance
+                 between alternative usages of experimental-prompt items and their original applications;
+                 Evaluated Pearson correlation between the embedding vectors and the quantitative
+                 measurement of creativity for further research.

@@ -10,7 +10,7 @@ description         : >-
                       DS @ University of Illinois, Urbana-Champaign
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          :                     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
+repository          : lwangjt  # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -35,14 +35,14 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Lisa Wang
-  image             : https://i0.wp.com/www.threecorgis.com///wp-content/uploads/2014/09/three_corgis618-1-1.jpg
+  image             : https://drive.google.com/file/d/1SJ6laqTpHY1WwEW7Fyo31rnq2Z4MJhOb/view?usp=drive_link
 #  behance           : your_username
 # dribbble          : your_username
   email             : ljingtongwang@gmail.com
 #  facebook          : your_username
   github            : lwangjt # JPN
 # gitlab            : your_username
-  instagram         : _w_j_t
+  instagram         : _w_j_t_
 # kaggle            : your_username
 #  linkedin          : your_username
 #  medium            : your_username
