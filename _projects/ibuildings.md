@@ -15,7 +15,7 @@ custom_js:
 
 This graph shows the relationship between the [Year Constructed] and [Square Footage] for five selected cities near U of I.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/ibuildings.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_ctbuilding.json" style="width: 100%"></vegachart>
 
 
 
