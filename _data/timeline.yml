@@ -5,6 +5,7 @@
                  more than 30 students related to statistical concepts (p-value, Hypothesis
                  Testing, Statistical Inference) and data modeling techniques (Regression, Classification)
                  in Python.
+
                ● Reviewed the weekly Python homework and projects that are primarily based on Pandas,
                  Matplotlib, and Sklearn for 15 students; Provided feedback for their submissions,
                  leading to enhanced performance in assessments.
@@ -16,12 +17,15 @@
   description: ● Developed online assessment and a platform for measuring creativity through
                  three dimensions and its correlation with participants’ interaction with the
                  GPT language models; Ultilized Qualtrics and Python as the main technologies.
+
                ● Established rigorous guidelines for data cleaning and rating procedures (Pandas,
                  Sklearn, Numpy), ensuring data quality for further analysis and the construction 
                  of the list of constant parameters into the platform’s backend.
+
                ● Implemented systematic checks and improvements by employing the Cohen-Kappa Score
                  to assess mutual rating consistency among different researchers, particularly in
                  the context of pilot study datasets.
+                 
                ● Pioneered the application of OpenAI's Ada Model to quantify the semantic distance
                  between alternative usages of experimental-prompt items and their original applications;
                  Evaluated Pearson correlation between the embedding vectors and the quantitative

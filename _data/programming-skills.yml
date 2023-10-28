@@ -1,4 +1,4 @@
-- name: Python (pandas, sklearn, seaborn)
+- name: Python
   percentage: 70
   level: Intermediate
   color: danger
@@ -8,12 +8,17 @@
   level: Intermediate
   color:
 
-- name: HTML/JavaScript
+- name: HTML
   percentage: 20
-  level: Begingger
+  level: Beginner
   color: secondary
 
 - name: R
   percentage: 50
   level: Intermediate
+  color: 
+
+- name: JavaScript
+  percentage: 30
+  level: Beginner
   color: 
