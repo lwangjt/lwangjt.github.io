@@ -29,17 +29,17 @@ Year Constructed vs Square Footage for Cities near U of I
 
 * This graph is describing the relationship between "Square_Footage" and "Year" for  cities around UIUC. Each colored line represent an individual city.
 * Because the data is mainly focusing on the quantitative variables, a line plot is applied to transitions of buildings' square footage and its year of construction. This design could display a smoother transition between time periods as well as constract between cities.
-* Filtering is applied to the original dataset. Firstly, I subset the dataset to contain only 5 cities around UIUC. Secondly, I threw out the rows that contain 0 as their "Year_COnstructed".
+* Filtering is applied to the original dataset. Firstly, I subset the dataset to contain only 5 cities around UIUC. Secondly, I threw out the rows that contain 0 as their "Year_Constructed".
 * This graph connects to the previous plots as I limited the number of cities to only the cities near UIUC and seperate them into different line. 
 
 
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://github.com/lwangjt/lwangjt.github.io/blob/main/assets/json/altair_ctbuilding.json" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/lwangjt/lwangjt.github.io/blob/main/python_notebooks/ibuilding.ipynb" text="The Analysis" %}
 </div>
 
