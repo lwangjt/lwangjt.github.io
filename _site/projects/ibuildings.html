@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Lisa Wang">
-  <meta property="og:description" content="DS @ University of Illinois, Urbana-Champaign">
-  <meta property="og:image" content="https://drive.google.com/file/d/1SJ6laqTpHY1WwEW7Fyo31rnq2Z4MJhOb/view?usp=sharing">
+  <meta property="og:title" content="Illinois Building Inventory">
+  <meta property="og:description" content="This projects shows some interactive visualization for the Illinois Buildings Inventory dataset.">
+  <meta property="og:image" content="assets/pngs/ibuildings.png">
 
-  <title>Lisa Wang</title>
-  <meta name="description" content="DS @ University of Illinois, Urbana-Champaign">
+  <title>Illinois Building Inventory</title>
+  <meta name="description" content="This projects shows some interactive visualization for the Illinois Buildings Inventory dataset.">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -60,7 +60,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
       <a class="nav-item nav-link " href="/blog/">Blog</a>
 
@@ -73,22 +73,33 @@
   </div>
 
 </nav>
-    <div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="illinois-building-inventory">Illinois Building Inventory</h1>
 
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element">
-        <img src="https://drive.google.com/file/d/1SJ6laqTpHY1WwEW7Fyo31rnq2Z4MJhOb/view?usp=sharing" alt="Lisa Wang" class="circle-image wow animated zoomIn" data-wow-delay=".1s" />
-      </div>
-    </div>
+<p>This graph shows the building status distribution for the cities in Illinois.</p>
 
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">DS @ University of Illinois, Urbana-Champaign</p>
+<vegachart schema-url="/assets/json/altair_ctbuilding.json" style="width: 100%"></vegachart>
 
-  </div>
+<p>This graph shows the relationship between the [Year Constructed] and [Square Footage] for five selected cities near U of I.</p>
+
+<vegachart schema-url="/assets/json/altair_ctsqft.json" style="width: 100%"></vegachart>
+
+<!-- these are written in a combo of html and liquid -->
+
+<div class="left">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
+  The Data
+</a>
 </div>
 
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
+  The Analysis
+</a>
+</div>
+
+
+</div>
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -126,6 +137,17 @@
 
 </footer>
 
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
 
 
 

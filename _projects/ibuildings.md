@@ -8,7 +8,7 @@ custom_js:
   - vega-lite.min
   - vega-embed.min
   - justcharts
----
+--- 
 
 
 # Illinois Building Inventory
@@ -19,7 +19,7 @@ This graph shows the building status distribution for the cities in Illinois.
 
 This graph shows the relationship between the [Year Constructed] and [Square Footage] for five selected cities near U of I.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_ctsqrt.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_ctsqft.json" style="width: 100%"></vegachart>
 
 
 
