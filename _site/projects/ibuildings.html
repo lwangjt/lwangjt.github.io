@@ -76,24 +76,38 @@
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
   <h1 id="illinois-building-inventory">Illinois Building Inventory</h1>
 
-<p>This graph shows the building status distribution for the cities in Illinois.</p>
+<p>Building Status Distribution for Illinoic County</p>
 
 <vegachart schema-url="/assets/json/altair_ctbuilding.json" style="width: 100%"></vegachart>
 
-<p>This graph shows the relationship between the [Year Constructed] and [Square Footage] for five selected cities near U of I.</p>
+<ul>
+  <li>This graph is describing different types of building status per Illinois county. The building status includes “in-progress, in-use, abandoned” and are arregacated based on count.</li>
+  <li>Because the data is mainly focusing on the categorical variables, a bar plot is applied to aggregate different building status for every Illinoid county. The “paired” colormap is used while different choices are tried and “paris” is the most optimal one since the “in-progress” count is relatively low for all counties and “paris” darken the “in-progress” bars.</li>
+  <li>No imputing or dropping is applied to the original datasets since the aggreagating does not require a clean datasets. Aggreagating is done by applying through the encoding of y within Altair.</li>
+  <li>This graph connects to the previous plots as I included more counties instead of the surrounding cities near U of I which makes the plot to contain more information.</li>
+</ul>
+
+<p>Year Constructed vs Square Footage for Cities near U of I</p>
 
 <vegachart schema-url="/assets/json/altair_ctsqft.json" style="width: 100%"></vegachart>
+
+<ul>
+  <li>This graph is describing the relationship between “Square_Footage” and “Year” for  cities around UIUC. Each colored line represent an individual city.</li>
+  <li>Because the data is mainly focusing on the quantitative variables, a line plot is applied to transitions of buildings’ square footage and its year of construction. This design could display a smoother transition between time periods as well as constract between cities.</li>
+  <li>Filtering is applied to the original dataset. Firstly, I subset the dataset to contain only 5 cities around UIUC. Secondly, I threw out the rows that contain 0 as their “Year_Constructed”.</li>
+  <li>This graph connects to the previous plots as I limited the number of cities to only the cities near UIUC and seperate them into different line.</li>
+</ul>
 
 <!-- these are written in a combo of html and liquid -->
 
 <div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/lwangjt/lwangjt.github.io/blob/main/assets/json/altair_ctbuilding.json">
   The Data
 </a>
 </div>
 
 <div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/lwangjt/lwangjt.github.io/blob/main/python_notebooks/ibuilding.ipynb">
   The Analysis
 </a>
 </div>
