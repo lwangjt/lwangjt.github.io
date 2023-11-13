@@ -1,7 +1,7 @@
 ---
-name: Illinois Building Inventory
+name: Rilakuma Color Distribution
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/rila.png
+image: assets/pngs/rila.jpg
 description: This projects shows the color distribution of similar Rilakuma pictures.
 custom_js:
   - vega.min
@@ -13,18 +13,15 @@ custom_js:
 
 # Rilakuma Color Distribution
 
+<img src="{{ site.baseurl }}/assets/pngs/color1.png" alt="color1">
 
-![rilaonecolor](assets/pngs/color1.png){:class="img-responsive"}
+<img src="{{ site.baseurl }}/assets/pngs/color2.png" alt="color2">
 
+<img src="{{ site.baseurl }}/assets/pngs/color3.png" alt="color3">
 
-![rilaonecolor](assets/pngs/color2.png){:class="img-responsive"}
-
-
-![rilaonecolor](assets/pngs/color3.png){:class="img-responsive"}
-rilakua
-
-![rilaonecolor](assets/pngs/colorall.png){:class="img-responsive"}
+<img src="{{ site.baseurl }}/assets/pngs/colorall.png" alt="colorall">
 <!-- these are written in a combo of html and liquid --> 
+
 
 <div class="left">
 {% include elements/button.html link="https://github.com/lwangjt/datasets/tree/main/rilakuma" text="The Data" %}
