@@ -14,7 +14,7 @@ Done by Lisa Wang
 
 ## Select an area and see the price ranges
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/chiairbnb.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/chicagoairbnb.json" style="width: 100%"></vegachart>
 
 ### Analysis
 * In this visualization, a scatter plot is shown on the chicago basemap, representing all the Chicago airbnb listing places using their longtitude and latitude information. When the user make a selection interval on the scatter plot on the top, a corresponding histogram showing the frequency of different price range will show up. The histogram encodes the count of the corresponding price range in the selected scatted (airbnb listing). 
@@ -25,27 +25,15 @@ Done by Lisa Wang
 ## Related Contextual Visualization
 
 ### Chicago Crime Map
-
-<img src="{{ site.baseurl }}/assets/pngs/chicrime.png" alt="Chicago Crime Map">
-
-CLEARMap. (n.d.). https://gis.chicagopolice.org/ 
-
-### Chicago Attraction Map For Tourists
-
-<img src="{{ site.baseurl }}/assets/pngs/chicagotour.png" alt="Chicago Attractions Map">
-
-chicagomap360.com. (n.d.). Map of chicago tourist: Attractions and monuments of Chicago. https://chicagomap360.com/chicago-tourist-map 
-
 <!-- these are written in a combo of html and liquid --> 
 
 <img src="{{ site.baseurl }}/assets/pngs/chicrime.png" alt="Chicago Crime Map">
-
 CLEARMap. (n.d.). https://gis.chicagopolice.org/ 
 
 ### Chicago Attraction Map For Tourists
 
 <img src="{{ site.baseurl }}/assets/pngs/chicagotour.png" alt="Chicago Attractions Map">
-
+chicagomap360.com. (n.d.). Map of chicago tourist: Attractions and monuments of Chicago. https://chicagomap360.com/chicago-tourist-map 
 
 <div class="left">
 {% include elements/button.html link="https://github.com/lwangjt/datasets/blob/main/chicago_airbnb/listings.csv" text="The Data" %}
