@@ -12,7 +12,8 @@ custom_js:
 
 Done by Lisa Wang
 
-## Select an area and see the price ranges
+## Chicago Airbnb Listings & Price Ranges
+### Select an area and see the price ranges
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chicagoairbnb.json" style="width: 100%"></vegachart>
 
@@ -22,18 +23,28 @@ Done by Lisa Wang
 * The listing.csv mainly contains two information that I used. The first is the individual row there, representing each Chicago airbnb listing. The second information or feature that I used is the price_range feature which I created based on the price column which can be considered as a categorical variable because I manually seperated all the prices into three bins (<100, 100-300, >300).
 * The boundary.geojson is a geographical data which contains the information of the boundary of chicago neighborhoods. Each row represents a different chicago neighborhood with corresponding geographic informaiton (longtitude, latitude), which make it useful where I added is as a basemap to the scatterplot that I created.
 
+
 ## Related Contextual Visualization
 
-### Chicago Crime Map
-<!-- these are written in a combo of html and liquid --> 
+<div class="row">
+  <div class="column">
+    <img src="{{ site.baseurl }}/assets/pngs/chicrime.png" alt="Chicago Crime Map">
+  </div>
+  <div class="column">
+    <img src="{{ site.baseurl }}/assets/pngs/chicagotour.png" alt="Chicago Attractions Map">
+  </div>
+</div>
 
-<img src="{{ site.baseurl }}/assets/pngs/chicrime.png" alt="Chicago Crime Map">
+<p>Left: <strong>{{ Chicago Crime Map}}</strong></p>
+
+<p>Right: <strong>{{ Chicago Attractions Map}}</strong></p>
+
+**Source(left to right):**
+
 CLEARMap. (n.d.). https://gis.chicagopolice.org/ 
 
-### Chicago Attraction Map For Tourists
+chicagomap360.com. (n.d.). Map of chicago tourist: Attractions and monuments of Chicago. https://chicagomap360.com/chicago-tourist-map
 
-<img src="{{ site.baseurl }}/assets/pngs/chicagotour.png" alt="Chicago Attractions Map">
-chicagomap360.com. (n.d.). Map of chicago tourist: Attractions and monuments of Chicago. https://chicagomap360.com/chicago-tourist-map 
 
 <div class="left">
 {% include elements/button.html link="https://github.com/lwangjt/datasets/blob/main/chicago_airbnb/listings.csv" text="The Data" %}

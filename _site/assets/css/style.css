@@ -468,3 +468,9 @@ body { font-family: "Poppins", sans-serif; }
 [data-theme="dark"] .list-group-item-action:hover, [data-theme="dark"] .list-group-item-action:focus { background-color: #1d1d1e; }
 [data-theme="dark"] .post footer { text-decoration: none; }
 [data-theme="dark"] .timeline-body .timeline-item:after { background-color: #17191a; }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column { float: left; width: 50%; padding: 10px; }
+
+/* Clear floats after image containers */
+.row::after { content: ""; clear: both; display: table; }

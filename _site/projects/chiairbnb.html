@@ -76,9 +76,10 @@
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
   <p>Done by Lisa Wang</p>
 
-<h2 id="select-an-area-and-see-the-price-ranges">Select an area and see the price ranges</h2>
+<h2 id="chicago-airbnb-listings--price-ranges">Chicago Airbnb Listings &amp; Price Ranges</h2>
+<h3 id="select-an-area-and-see-the-price-ranges">Select an area and see the price ranges</h3>
 
-<vegachart schema-url="/assets/json/chiairbnb.json" style="width: 100%"></vegachart>
+<vegachart schema-url="/assets/json/chicagoairbnb.json" style="width: 100%"></vegachart>
 
 <h3 id="analysis">Analysis</h3>
 <ul>
@@ -88,29 +89,36 @@
   <li>The boundary.geojson is a geographical data which contains the information of the boundary of chicago neighborhoods. Each row represents a different chicago neighborhood with corresponding geographic informaiton (longtitude, latitude), which make it useful where I added is as a basemap to the scatterplot that I created.</li>
 </ul>
 
-<h2 id="related-contextual-visualization">Related Contextual Visualization</h2>
-
 <h3 id="chicago-crime-map">Chicago Crime Map</h3>
+<!-- these are written in a combo of html and liquid -->
 
-<p><img src="/assets/pngs/chicrime.png" alt="Chicago Crime Map" /></p>
-
-<p>CLEARMap. (n.d.). https://gis.chicagopolice.org/</p>
+<p><img src="/assets/pngs/chicrime.png" alt="Chicago Crime Map" />
+CLEARMap. (n.d.). https://gis.chicagopolice.org/</p>
 
 <h3 id="chicago-attraction-map-for-tourists">Chicago Attraction Map For Tourists</h3>
 
-<p><img src="/assets/pngs/chicagotour.png" alt="Chicago Attractions Map" /></p>
+<p><img src="/assets/pngs/chicagotour.png" alt="Chicago Attractions Map" />
+chicagomap360.com. (n.d.). Map of chicago tourist: Attractions and monuments of Chicago. https://chicagomap360.com/chicago-tourist-map</p>
 
-<p>chicagomap360.com. (n.d.). Map of chicago tourist: Attractions and monuments of Chicago. https://chicagomap360.com/chicago-tourist-map</p>
+<h2 id="related-contextual-visualization">Related Contextual Visualization</h2>
 
-<!-- these are written in a combo of html and liquid -->
+<div class="row">
+  <div class="column">
+    <img src="/assets/pngs/chicrime.png" alt="Chicago Crime Map" />
+  </div>
+  <div class="column">
+    <img src="/assets/pngs/chicagotour.png" alt="Chicago Attractions Map" />
+  </div>
+</div>
+<p>Left: <strong>Chicago Crime Map</strong></p>
 
-<p><img src="/assets/pngs/chicrime.png" alt="Chicago Crime Map" /></p>
+<p>Right: <strong>Chicago Attraction Map For Tourists</strong> :</p>
+
+<p><strong>Source(left to right):</strong></p>
 
 <p>CLEARMap. (n.d.). https://gis.chicagopolice.org/</p>
 
-<h3 id="chicago-attraction-map-for-tourists-1">Chicago Attraction Map For Tourists</h3>
-
-<p><img src="/assets/pngs/chicagotour.png" alt="Chicago Attractions Map" /></p>
+<p>chicagomap360.com. (n.d.). Map of chicago tourist: Attractions and monuments of Chicago. https://chicagomap360.com/chicago-tourist-map</p>
 
 <div class="left">
 <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/lwangjt/datasets/blob/main/chicago_airbnb/listings.csv">
