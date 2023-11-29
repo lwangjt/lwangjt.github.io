@@ -35,11 +35,11 @@ Done by Lisa Wang
   </div>
 </div>
 
-<p>Left: <strong>{{ Chicago Crime Map}}</strong></p>
+Left:Chicago Crime Map
 
-<p>Right: <strong>{{ Chicago Attractions Map}}</strong></p>
+Right: Chicago Attractions Map
 
-**Source(left to right):**
+Source(left to right):
 
 CLEARMap. (n.d.). https://gis.chicagopolice.org/ 
 
