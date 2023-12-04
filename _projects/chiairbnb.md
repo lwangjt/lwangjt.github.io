@@ -17,6 +17,7 @@ Done by Lisa Wang
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chicagoairbnb.json" style="width: 100%"></vegachart>
 
+Source: Get the Data. (n.d.). Insideairbnb.com. http://insideairbnb.com/get-the-data
 ### Analysis
 * In this visualization, a scatter plot is shown on the chicago basemap, representing all the Chicago airbnb listing places using their longtitude and latitude information. When the user make a selection interval on the scatter plot on the top, a corresponding histogram showing the frequency of different price range will show up. The histogram encodes the count of the corresponding price range in the selected scatted (airbnb listing). 
 * The contextual dataset here is the boundary.geojson which has the geographic boundary map of the Chicago city  (found at. https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9). This is useful in this case because the user could select the area where they like according to the neighborhood or the approximate location of the map. I also included this as a base layer in the Chicago boundary driven plot because this could provide the audience with a better idea about where they are selecting from.
